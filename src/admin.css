@@ -1,0 +1,3 @@
+.MuiTableCell-root {
+  word-wrap: break-word; /* Перенос длинного текста */
+}

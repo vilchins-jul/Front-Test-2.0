@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Montserrat&display=swap'); */
+/* body {
+  display: flex;
+} */
+
+.navbar{
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #C47A2C;
+  position: fixed;
+  z-index: 2;
+}
+
+/* .navbar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+} */
+
+/* .navbar a:hover{
+  color: white;
+} */
+
+.links {
+  overflow: hidden;
+  background-color: #C47A2C;
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+  float: left;
+  text-align: center;
+  padding: 20px 4em;
+  text-decoration: none;
+}
+
+.button-logged {
+  padding: 15px 40px;
+  color: black;
+  background-color: white;
+}
+
+/* .toggleButton {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+} */
+
+.toggleButton button {
+  margin-right: 50px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* #open {
+  height: 0vh;
+}
+
+#open .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: static;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+} */
+
+/* @media only screen and (max-width: 960px){
+  .links{
+    padding: 25px;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+  }
+  .links{
+    display: none;
+  }
+  .toggleButton {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 4em;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-width: 760px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+} */
+
+/* @media only screen and (max-width: 480px){
+  .navbar{
+    gap: 0px;
+  }
+  .navbar a{
+    margin: 0px;
+  }
+  #open .links{
+    gap: 40px;
+  }
+} */
+
+

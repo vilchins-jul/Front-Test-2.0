@@ -1,0 +1,17 @@
+.all {
+    margin-top: 150px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.open-btn {
+    color: white;
+    background-color: #C47A2C;
+    border: 0;
+    padding: 3% 10%;
+    font-size: 2em;
+}

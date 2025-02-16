@@ -1,0 +1,35 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #05938B;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.all {
+    padding: 30px;
+    margin: 0;
+}
+
+.user-name, .date-status, .user-details, .blocked, .details {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    background-color: #F0F0F0;
+    padding: 10px 30px;
+    box-shadow: inset 0px 5px 5px -3px #BABABA;
+}
